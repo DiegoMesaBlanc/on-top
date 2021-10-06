@@ -1,0 +1,44 @@
+/***************************** ESTILOS PROYECTO *****************************/
+// Colores globales del proyecto
+:root {
+  // --info-color: #009dd6;
+}
+
+// Variable de colores
+$primary-color: #fb5c74;
+$gray-color: #adadad;
+
+// Cambiar tema de bootstrap
+$theme-colors: (
+  "primary": $primary-color,
+  "gray": $gray-color,
+);
+
+$enable-responsive-font-sizes: true;
+
+@import "~bootstrap/scss/bootstrap";
+
+// body {
+//   font-family: Bold, Light, Regular;
+// }
+
+// Estilos scroll
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  scrollbar-color: $primary-color #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 0.3em;
+  height: 0.3em;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 0.5em #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 1em $primary-color;
+}
