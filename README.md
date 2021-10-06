@@ -20,6 +20,8 @@ se vayan a consumir.
 el cual nos brindara la estructura de esta carpeta. Se crea una carpeta por cada opcion del menu; con su respectivo routing
 y module; esto puesto que mejora la interacción del usuario con cada vista. El routing dentro de cada uno es para una comunicación mas rápida y fácil de entender cuando un proyecto crece bastante. Por ultimo tendremos un modulo global que alojará todos los componentes hijos que se repetiran más de lo normal dentro del proyecto y tendremos que utilizarlos en varias vistas.
 
+* **Style.scss** : Antes de iniciar cada proyecto, este se debe configurar, minimo, para la paleta de colores que se utilizará dependiendo del usuario en cuestion.
+
 * **Assets** : Tendrá todas las fuentes, imagenes, iconos, etc; que el proyecto requiera
 
 * **Environments** : Alojará todas nuestras uris para cada ambiente de despliegue.
